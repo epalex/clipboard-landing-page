@@ -70,6 +70,10 @@ h1 {
   padding: 15px 60px;
 }
 
+.ios-btn:hover {
+  opacity: 0.75;
+}
+
 .mac-btn {
   text-decoration: none;
   background-color: #6174ff;
@@ -83,6 +87,10 @@ h1 {
   line-height: 30px;
   letter-spacing: 0.5px;
   padding: 15px 60px;
+}
+
+.mac-btn:hover {
+  opacity: 0.75;
 }
 
 footer a {
