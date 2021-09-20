@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+header {
+  background-image: url(./images/bg-header-mobile.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 125px;
+  margin-bottom: 64px;
+}
+
+h1 {
+  color: #4c545c;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  margin: 0 auto;
+  width: 85%;
+  text-align: center;
+}
+
+.clipboard {
+  color: #9eabb2;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+  margin: 16px auto 48px auto;
+  width: 85%;
+  text-align: center;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+}
+
+.ios-btn {
+  margin-bottom: 24px;
+  text-decoration: none;
+  background-color: #26bba4;
+  color: white;
+  box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  border-radius: 28px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  padding: 15px 60px;
+}
+
+.mac-btn {
+  text-decoration: none;
+  background-color: #6174ff;
+  color: white;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035),
+    inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+  border-radius: 28px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+  padding: 15px 60px;
+}
+
+footer a {
+  text-decoration: none;
+  color: tomato;
+}
+
+.paminos {
+  color: tomato;
+  font-weight: 600;
+}
+
+footer {
+  font-size: 13px;
+  text-align: center;
+  font-weight: 500;
+  color: darkgrey;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
