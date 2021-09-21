@@ -102,11 +102,20 @@ h1 {
   flex-direction: column;
 }
 
-.pc-img {
+.access {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.pc-img,
+.devices {
   width: 100%;
 }
 
-.snippets h2 {
+.snippets h2,
+.access h2 {
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
@@ -116,7 +125,8 @@ h1 {
   text-align: center;
 }
 
-.cloud {
+.cloud,
+.access p {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -126,6 +136,10 @@ h1 {
   margin: 16px auto 64px auto;
   width: 90%;
   text-align: center;
+}
+
+.access p {
+  width: 92%;
 }
 
 .characteristics {
