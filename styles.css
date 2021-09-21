@@ -95,6 +95,64 @@ h1 {
   opacity: 0.75;
 }
 
+.snippets {
+  margin: 160px auto 140px auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.pc-img {
+  width: 100%;
+}
+
+.snippets h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: -0.456522px;
+  color: #4c545c;
+  text-align: center;
+}
+
+.cloud {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+  margin: 16px auto 64px auto;
+  width: 90%;
+  text-align: center;
+}
+
+.characteristics {
+  margin-top: 54px;
+  text-align: center;
+}
+
+.characteristics h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.391304px;
+  color: #4c545c;
+}
+
+.characteristics p {
+  margin: 10px auto 48px auto;
+  width: 90%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+}
+
 footer a {
   text-decoration: none;
   color: tomato;
