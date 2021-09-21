@@ -103,7 +103,14 @@ h1 {
 }
 
 .access {
-  margin: auto;
+  margin: 0 auto 130px auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.workflow {
+  margin: 0 auto 130px auto;
   width: 90%;
   display: flex;
   flex-direction: column;
@@ -115,7 +122,8 @@ h1 {
 }
 
 .snippets h2,
-.access h2 {
+.access h2,
+.workflow h2 {
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
@@ -126,7 +134,8 @@ h1 {
 }
 
 .cloud,
-.access p {
+.access p,
+.workflow p {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -140,6 +149,10 @@ h1 {
 
 .access p {
   width: 92%;
+}
+
+.workflow p {
+  margin: 12px auto 90px auto;
 }
 
 .characteristics {
@@ -165,6 +178,36 @@ h1 {
   line-height: 26px;
   letter-spacing: 0.12px;
   color: #9eabb2;
+}
+
+.workflow-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.workflow-items section {
+  text-align: center;
+}
+
+.workflow-items section h3 {
+  margin-top: 40px;
+  margin-bottom: 18px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.391304px;
+  color: #4c545c;
+}
+
+.workflow-items section p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+  color: #9eabb2;
+  width: 93%;
 }
 
 footer a {
