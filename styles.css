@@ -239,13 +239,52 @@ h1 {
   width: 90%;
 }
 
+.page-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 12px auto;
+  width: 90%;
+}
+
+.page-footer img {
+  height: 55px;
+  width: 55px;
+  margin-bottom: 20px;
+}
+
+.links {
+  margin-top: 20px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.135px;
+  color: #4c545c;
+}
+
+.social-icons {
+  margin-top: 48px;
+}
+
+.social-icons img {
+  height: 25px;
+  width: 25px;
+}
+
+.twitter {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 footer a {
   text-decoration: none;
-  color: tomato;
+  color: orangered;
 }
 
 .paminos {
-  color: tomato;
+  color: orangered;
   font-weight: 600;
 }
 
@@ -253,7 +292,7 @@ footer {
   font-size: 13px;
   text-align: center;
   font-weight: 500;
-  color: darkgrey;
+  color: goldenrod;
   margin-top: 48px;
   margin-bottom: 16px;
 }
