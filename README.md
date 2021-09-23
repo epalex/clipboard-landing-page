@@ -29,4 +29,4 @@ Users should be able to:
 
 ## Open issues
 
--
+- social icons hover state (svg..)

@@ -278,6 +278,12 @@ h1 {
   margin-right: 40px;
 }
 
+.links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 footer a {
   text-decoration: none;
   color: orangered;
@@ -395,5 +401,48 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     margin-bottom: 150px;
+  }
+
+  .page-footer {
+    height: 150px;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .page-footer img {
+    margin-bottom: unset;
+  }
+
+  .social-icons {
+    margin-top: unset;
+  }
+
+  .links-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .links {
+    margin-top: unset;
+    padding-right: 32px;
+  }
+
+  .links:hover {
+    color: #26bba4;
+  }
+
+  .social-icons-images:hover {
+    fill: #26bba4;
+  }
+
+  .contact-us {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+  }
+
+  .install-guide {
+    grid-row: 1 / 2;
+    grid-column: 3 / 4;
   }
 }
