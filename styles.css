@@ -330,14 +330,18 @@ footer {
   }
 
   .snippets h2,
-  .access h2 {
+  .access h2,
+  .workflow h2,
+  .available h2 {
     font-size: 36px;
     line-height: 45px;
     letter-spacing: -0.586957px;
   }
 
   .cloud,
-  .access p {
+  .access p,
+  .workflow p,
+  .available p {
     font-size: 18px;
     line-height: 30px;
     letter-spacing: 0.135px;
@@ -347,7 +351,11 @@ footer {
 
   .access p {
     margin: 20px auto 110px auto;
-    width: 55%;
+  }
+
+  .available p {
+    width: 57.5%;
+    margin-bottom: 48px;
   }
 
   .access figure {
@@ -371,5 +379,21 @@ footer {
   .characteristics p {
     line-height: 30px;
     width: 60%;
+  }
+
+  .workflow-items {
+    flex-direction: row;
+  }
+
+  .workflow-items section p {
+    line-height: 30px;
+    width: 67.5%;
+  }
+
+  .companies {
+    margin-top: 110px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
   }
 }
