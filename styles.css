@@ -296,3 +296,80 @@ footer {
   margin-top: 48px;
   margin-bottom: 16px;
 }
+
+@media screen and (min-width: 992px) {
+  header {
+    background-image: url(./images/bg-header-desktop.png);
+  }
+
+  h1 {
+    font-size: 46px;
+    line-height: 57px;
+    letter-spacing: -0.75px;
+  }
+
+  .clipboard {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    width: 50%;
+  }
+
+  .download {
+    flex-direction: row;
+  }
+
+  .ios-btn {
+    margin-bottom: 0;
+    margin-right: 16px;
+    padding: 15px 45px;
+  }
+
+  .mac-btn {
+    padding: 15px 45px;
+  }
+
+  .snippets h2,
+  .access h2 {
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.586957px;
+  }
+
+  .cloud,
+  .access p {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+    margin: 20px auto 80px auto;
+    width: 55%;
+  }
+
+  .access p {
+    margin: 20px auto 110px auto;
+    width: 55%;
+  }
+
+  .access figure {
+    margin: auto;
+    width: 65%;
+  }
+
+  .pros {
+    display: flex;
+  }
+
+  .characteristics {
+    text-align: left;
+  }
+
+  .characteristics h3 {
+    margin: auto;
+    width: 60%;
+  }
+
+  .characteristics p {
+    line-height: 30px;
+    width: 60%;
+  }
+}
